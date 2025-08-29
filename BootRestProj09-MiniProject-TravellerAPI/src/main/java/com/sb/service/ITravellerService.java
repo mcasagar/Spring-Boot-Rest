@@ -8,4 +8,5 @@ public interface ITravellerService {
 	public String registerTraveller(TravellerVO travellerVo);
 	public String registerGroupTravellers(List<TravellerVO> listVo);
 	public TravellerVO showTravellerById(Integer id);
+	public List<TravellerVO> showAllTravellers(List<TravellerVO> listVo);
 }
